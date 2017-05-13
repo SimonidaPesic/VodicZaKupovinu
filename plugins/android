@@ -1,0 +1,50 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-geolocation": {
+            "PACKAGE_NAME": "io.cordova.myapp026b54"
+        },
+        "cordova-plugin-globalization": {
+            "PACKAGE_NAME": "io.cordova.myapp026b54"
+        },
+        "cordova-plugin-googlemaps": {
+            "API_KEY_FOR_ANDROID": "AIzaSyAyg4rj-xP26hRNZfm8Wyo6g-UWkbvcEcI",
+            "PACKAGE_NAME": "io.cordova.myapp026b54"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "io.cordova.myapp026b54"
+        },
+        "cordova-plugin-battery-status": {
+            "PACKAGE_NAME": "io.cordova.myapp026b54"
+        },
+        "cordova-plugin-camera": {
+            "PACKAGE_NAME": "io.cordova.myapp026b54"
+        },
+        "cordova-sqlite-storage": {
+            "PACKAGE_NAME": "io.cordova.myapp026b54"
+        },
+        "cordova-plugin-device-orientation": {
+            "PACKAGE_NAME": "io.cordova.myapp026b54"
+        },
+        "cordova-plugin-dialogs": {
+            "PACKAGE_NAME": "io.cordova.myapp026b54"
+        },
+        "cordova-plugin-media": {
+            "PACKAGE_NAME": "io.cordova.myapp026b54"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "io.cordova.myapp026b54"
+        },
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "io.cordova.myapp026b54"
+        }
+    }
+}
