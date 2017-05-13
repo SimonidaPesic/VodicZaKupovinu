@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--
+        Customize the content security policy in the meta tag below as needed. Add 'unsafe-inline' to default-src to enable inline JavaScript.
+        For details, see http://go.microsoft.com/fwlink/?LinkID=617521
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">
+         
+         -->
+
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <title>VodicZaKupovinu</title>
+</head>
+<body>
+    <header>
+        <div id="divGlavni">
+            <div id="div1">
+                <img id="slikaMenu" src="images/mmmm.png" style="width:35px;height:35px" />
+            </div>
+            <div id="div2">
+                <h2 id="naslov"> Vodic za kupovinu </h2>
+
+            </div>
+            <div id="div3">
+                <canvas id="logo" width="60" height="45"> </canvas>
+                <img id="torba" src="images/bag.png" style="width:200px;height:200px;display:none; background-size: 100% 100%" />
+                <img id="kolica" src="images/kolica.png" style="width:150px;height:150px;display:none; background-size: 100% 100%"/>
+
+                <script>
+                   window.onload = function() {
+
+                        var c = document.getElementById("logo");
+                        var ctx = c.getContext("2d");
+                        var img1 = document.getElementById("torba");
+                        var img2 = document.getElementById("kolica");
+                        ctx.drawImage(img1, 5, 3, 60, 50);
+                        ctx.drawImage(img2, 20, 25, 30, 20);
+                    }   
+                </script>
+            </div>
+        </div>
+    </header>
+    <div id="dropDown">
+    </div>
+    <div id="search">
+        <img src="images/camera.png" id="cameraPic" style="width:25px;height:25px;float:left" />
+        <img src="images/search.png" id="searchPic" style="width:20px;height:20px;float:right" />
+        <input type="text" id="searchInput" style="float:right" />
+
+    </div>
+    <div id="mapa">
+    </div>
+    <div id="lista">
+        <ul id="listaIzBaze"></ul>
+    </div>
+
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBncEp5XIPbiB68sjjZ673wvFd_hUMs2kk"></script>
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="scripts/platformOverrides.js"></script>
+    <script type="text/javascript" src="scripts/index.js"></script>
+</body>
+</html>
