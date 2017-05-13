@@ -1,0 +1,90 @@
+body{
+    position:relative;
+    background-color:rgb(178, 169, 167);
+}
+#divGlavni
+{
+    background-color:#FF6347;
+	width:100%;
+	display: inline-flex;
+	height:10%;
+}
+h2
+{
+	font:bold 17px Segoe script, sans-serif;
+	color:#F5F5F5;
+	width:100%;
+    
+}
+#div3
+{
+	width:20%;
+    border:2px solid #808080;
+   
+}
+#div2
+{
+	width:60%;
+    text-align:center;
+}
+#div1
+{
+	width:20%;
+    
+}
+
+#slikaLogo
+{
+    float:right;
+}
+
+h1 {
+    font-size:24px;
+    font-weight:normal;
+    margin:0px;
+    overflow:visible;
+    padding:0px;
+    text-align:center;
+}
+a{
+	font:bold 17px Segoe script, sans-serif;
+	color:#F5F5F5;
+	
+}
+ul
+{
+    margin-left:-40px;
+    list-style-type:none;
+}
+li
+{
+    margin-bottom:15px;
+    border-bottom:2px solid #F5F5F5;
+}
+#mapa
+{
+    width:100%;
+    height:350px;
+}
+#dropDownTrenutni{
+    border: 2px solid #F5F5F5;
+	float:left;
+	width:60%;
+	background-color:#FF6347;
+    color:white;
+	height:35%;
+	position:absolute;
+	z-index:100;
+    font:bold 17px Segoe script, sans-serif;
+}
+#search
+{
+    background-color:rgb(178, 169, 167);
+    width:100%;
+}
+#lista
+{
+    font:bold 17px Segoe script, sans-serif;
+    color:white;
+    background-color:#FF6347;
+}
